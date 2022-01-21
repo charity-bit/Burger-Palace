@@ -169,3 +169,49 @@ section{
 
 
 /* Qualities section */
+.qualities{
+    background-color: --clr-gray;
+    padding-top: 200px;
+}
+.boxes{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+.box-item{
+  display: flex;
+  flex-direction: column;
+  border:1px solid gray;
+  border-radius: 10px;
+  padding:20px;
+  text-align: center;
+  width: 350px;
+  align-content: space-between;
+  transition: all 0.5s ease-in-out;
+
+  
+
+}
+.box-item:hover{
+    transform:scale(1.1)
+
+}
+.box-item h3{
+    color: #800000;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.box-item p{
+    color: black;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+.icon{
+    color:var(--clr-yellow)
+}
+/* menu */
+
+.space-div{
+    height: 200px;
+}
