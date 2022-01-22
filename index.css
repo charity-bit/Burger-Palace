@@ -424,6 +424,12 @@ margin-top: 200px;
 /* T0 DO
 Use absolute/relative positioning 
 instead of empty div */
+
+
+
+.subscribe-container{
+    
+}
 .footer-container{
     display: flex;
     flex-direction: row;
@@ -446,3 +452,5 @@ instead of empty div */
 .list-icons li ion-icon{
     font-size: 18px;
 }
+
+
