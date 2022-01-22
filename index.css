@@ -323,22 +323,42 @@ and make make the image take 100% width and height of the container*/
 .discover{
     background-color:#F6B400;
     height: 100vh;
+    
 }
 .discover-cont{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    height: 80%;
+    align-content: center;
+    align-items: center;
+    
 }
 .apps-conts{
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+    
 
+}
+.apps-conts h3{
+
+    font-weight: 600;
+    font-size: 2.5em;
+    height: 70%;
+    
+    
 }
 .app-stores{
     display: flex;
     flex-direction: row;
-    width: 500px;
+    width: 420px;
     justify-content: space-evenly;
+    height: 50%;
+    align-items: flex-end;
+    
 
 }
 .google,.apple{
@@ -354,12 +374,13 @@ and make make the image take 100% width and height of the container*/
     border-radius: 5px;
     
 }
-.apple i{
+.apple i,ion-icon{
     font-size: 32px;
     margin-left: 5px;
     align-self: center;
     
 }
+
 .apple p ,.google p {
     font-weight: 300;
     font-size: 1em;
@@ -367,7 +388,39 @@ and make make the image take 100% width and height of the container*/
     text-align: center;
     
 }
+.google span{
+    text-transform: uppercase;
+}
+
+/* TO DO 
+override font-size in p element */
 .apple p span,.google span{
     font-weight: 600;
 
 }
+
+.mobile1,.mobile2{
+    
+height: 500px;
+margin-top: 200px;
+}
+.mobile1 img, .mobile2 img{
+    height: 100%;
+}
+.space-div2{
+    width: 10%;
+}
+
+.space-div3{
+    width: 5%;
+}
+.space-div4{
+ height: 70%;
+}
+.space-div5{
+    width: 50px;
+}
+
+/* T0 DO
+Use absolute/relative positioning 
+instead of empty div */
