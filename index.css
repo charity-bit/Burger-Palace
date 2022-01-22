@@ -25,6 +25,11 @@ section{
     padding: 20px 20px;
     max-height: 100vh;
 }
+footer{
+
+    padding: 20px 20px;
+    height: 30px;
+}
 
 /* Header and Intro Section */
 .intro{
@@ -419,3 +424,25 @@ margin-top: 200px;
 /* T0 DO
 Use absolute/relative positioning 
 instead of empty div */
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+} 
+.footer-container p{
+    font-size: 0.8em;
+}
+.list-icons{
+    list-style: none;
+     padding-top: 15px;
+}
+.list-icons li{
+    display: inline;
+
+}
+.list-icons li ion-icon{
+    font-size: 18px;
+}
