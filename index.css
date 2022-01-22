@@ -96,13 +96,8 @@ section{
 
     
 }
-.icon{
-    color:black;
-    font-size: 48px;
-    margin-left: 42px;
-    margin-bottom: 5px;
-    position: relative;
-}
+
+
 /* pseudo element fot the cart icon */
 /* .icon::before{
     content: "2";
