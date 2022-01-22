@@ -286,21 +286,19 @@ section{
     I am having trouble positioning the double decker section
     so I used a margin top of 50% which I dont know whether is good practice.
     I will find a better way to position the section
-    
-
     */
     margin-top: 50%; 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-
-    width: 100vh;
+    overflow: hidden;
 }
-.right-cont{
+.top-cont{
     display: flex;
     flex-direction: column;
-    flex:1;
+    justify-content: space-evenly;
 }
+
+
 /* according to the instructions, the images are not to be resized
 so what I did with all the images , is put the images in a container 
 and specify the dimensions of the container 
@@ -309,4 +307,67 @@ and make make the image take 100% width and height of the container*/
     display: flex;
     flex-direction: row;
  
+}
+#check1{
+    width: 90%;
+    height: 90%;
+
+}
+#check1 img{
+    height: 100%;
+    position: relative;
+}
+
+
+
+.discover{
+    background-color:#F6B400;
+    height: 100vh;
+}
+.discover-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.apps-conts{
+    display: flex;
+    flex-direction: column;
+
+}
+.app-stores{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-evenly;
+
+}
+.google,.apple{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:white;
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    
+}
+.apple i{
+    font-size: 32px;
+    margin-left: 5px;
+    align-self: center;
+    
+}
+.apple p ,.google p {
+    font-weight: 300;
+    font-size: 1em;
+    margin-left:7px;
+    text-align: center;
+    
+}
+.apple p span,.google span{
+    font-weight: 600;
+
 }
