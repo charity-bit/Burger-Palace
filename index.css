@@ -7,7 +7,7 @@
 }
 :root{
     --clr-yellow: #F6B400;
-    --clr-gray:#E1EBE6;
+    --clr-gray:#E1EBE6; 
     --clr-white:#fff;
     --clr-orange:#FC6A03;
 
@@ -170,7 +170,8 @@ section{
 
 /* Qualities section */
 .qualities{
-    background-color: --clr-gray;
+    background-color: #E1EBE6;
+    opacity: 0.7;
     padding-top: 200px;
 }
 .boxes{
@@ -226,7 +227,7 @@ section{
 }
 .title span{
     color:var(--clr-yellow);
-    font-family: 600;
+    font-weight: 700;
     
 }
 
@@ -239,19 +240,25 @@ section{
 } 
 .menu-items{
     display: grid;
-    grid-gap: 20px;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    row-gap: 50px;
+    column-gap:20px;
     margin-top: 30px;
 }
     .box-item p{
         color: black;
         opacity: 0.7;
         margin-top: 20px;
+        
+
     }
 .menu-item{
     display: flex;
     flex-direction: column;
     text-align: center;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1), 0 4px 12px 0 rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 20px;
     
 }
 
@@ -265,4 +272,41 @@ section{
     color: black;
     opacity: 0.7;
     margin-top: 20px;
+
+
+}
+
+/* the double decker section */
+
+.double{
+    height: 100vh;
+    background-color: #E1EBE6;
+    opacity: 0.7;
+    /* /* to do!
+    I am having trouble positioning the double decker section
+    so I used a margin top of 50% which I dont know whether is good practice.
+    I will find a better way to position the section
+    
+
+    */
+    margin-top: 50%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 100vh;
+}
+.right-cont{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+/* according to the instructions, the images are not to be resized
+so what I did with all the images , is put the images in a container 
+and specify the dimensions of the container 
+and make make the image take 100% width and height of the container*/
+.image-cont{
+    display: flex;
+    flex-direction: row;
+ 
 }
