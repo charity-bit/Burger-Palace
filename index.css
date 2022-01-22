@@ -471,10 +471,41 @@ instead of empty div */
     font-weight: bold;
     font-size: 1.5em;
     color: black;
+   
 }
 .site-map ul{
     list-style: none;
     line-height: 30px;
+}
+.news-letter{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.news-letter h4{
+    color: black;
+    font-size:1.1em;
+    margin-right: 55px;
+    margin-top: 20px;
+}
+.subscribe-btn{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    
+}
+.subscribe-btn input{
+    height: 40px;
+    width:200px;
+
+}
+.subscribe-btn button{
+    width:100px;
+    margin-right:5px;
+    color:white;
+    background-color: var(--clr-yellow);
+    border: none;
 }
 
 .footer-container{
