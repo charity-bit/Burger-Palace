@@ -427,9 +427,56 @@ instead of empty div */
 
 
 
-.subscribe-container{
-    
+/* Subscribe/newsletter section */
+
+.subscribe{
+    background-color: #E1EBE6;
+    opacity: 0.8;
 }
+.subscribe-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+}
+.subscribe-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.subscribe-container .subscribe-logo h4{
+    align-items: center;
+    color: black;
+    font-family: var(--ff-primary);
+    font-size: 2em;
+    margin-top: 7px;
+
+}
+.image-cont{
+    height: 48px;
+}
+.subscribe-logo img{
+    height: 100%;
+}
+.subscribe-container .subscribe-logo h4 span{
+    color: var(--clr-yellow);
+
+
+}
+
+.site-map h4{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+}
+.site-map ul{
+    list-style: none;
+    line-height: 30px;
+}
+
 .footer-container{
     display: flex;
     flex-direction: row;
