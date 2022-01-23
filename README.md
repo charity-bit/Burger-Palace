@@ -8,3 +8,9 @@
    
    ## Demo
    Here is the Live site : https://burger-palace.netlify.app/
+   
+   ##Site
+   
+   ##Landing Page
+   
+   ![](https://github.com/charity-bit/Burger-Palace/blob/main/assets/landing.png)
