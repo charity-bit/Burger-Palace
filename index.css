@@ -366,35 +366,64 @@ width: 60px;
     */
     margin-top: 70%; 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     overflow: hidden;
 }
-.top-cont{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-
 /* according to the instructions, the images are not to be resized
 so what I did with all the images , is put the images in a container 
 and specify the dimensions of the container 
 and make make the image take 100% width and height of the container*/
-.image-cont{
+.top-cont{
     display: flex;
     flex-direction: row;
- 
+    height:60%;
+    width: 100%;
+    max-width: 100vh;
+    justify-content:space-between;
 }
-#check1{
-    width: 90%;
-    height: 90%;
+
+.double-decker{
+       flex:1;
+       display: flex;
+       flex-direction: column;
+       height: 100%; /* it will take 100% height of its parent container*/
+       justify-content: center;
+       padding:20px;
 
 }
-#check1 img{
+.double-decker h3{
+    font-weight: 600;
+    font-size: 2.5em;
+    color:black;
+
+
+}
+.double-decker h3 span{
+    color: var(--clr-yellow);
+}
+.double-decker p{
+    color: black;
+    opacity: 0.7;
+}
+.image-cont{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+    
+}
+
+.image1,.image2{
+    height: 500px;
+}
+.image1 img,.image2 img{
     height: 100%;
-    position: relative;
+}
+.image1 {
 }
 
+/* Discover section */
 
 
 .discover{
