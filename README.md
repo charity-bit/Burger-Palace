@@ -54,7 +54,7 @@
   <ol>
     
    ## Contributors
-    :<a  href="https://github.com/charity-bit" style="text-decoration:none;">Charity Nyanchera</a>
+  <a  href="https://github.com/charity-bit" style="text-decoration:none;">Charity Nyanchera</a>
     
 
    
