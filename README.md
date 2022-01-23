@@ -9,9 +9,9 @@
   </tr>
   </table>
   
-  ##Original Design
+  ## Original Design
   
-  ![](https://github.com/charity-bit/Burger-Palace/tree/main/assets)
+  ![](https://github.com/charity-bit/Burger-Palace/tree/main/assets/project.png)
    
    ## Demo
    Here is the Live site : https://charity-bit.github.io/Burger-Palace/
