@@ -7,4 +7,4 @@
   </table>
    
    ## Demo
-   Here is the Live site : ![Burger Palace](https://burger-palace.netlify.app/)
+   Here is the Live site : https://burger-palace.netlify.app/
