@@ -432,8 +432,10 @@ and make make the image take 100% width and height of the container*/
            
         }
         .dots{
-         display: flex-end;
-         width: 350px;
+        display: flex;
+        flex-direction: row;
+         margin-top: 20px;
+         
         }
         
         .dots ul{
@@ -452,9 +454,11 @@ and make make the image take 100% width and height of the container*/
         .dots ul li i:hover{
             color:var(--clr-orange);
         }
-        .dots ul li:nth-child(4) ion-icon{
-            color: var(--clr-orange) !important;
-            font-size: 42px;
+       .dots ion-icon{
+            color: var(--clr-orange);
+            font-size: 32px;
+            margin-left: 30px;
+            
             
         }
         
