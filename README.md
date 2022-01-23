@@ -35,6 +35,13 @@
    
    ## Footer Section
    ![](https://github.com/charity-bit/Burger-Palace/blob/main/assets/footer.png)
+   
+   
+   ## Built with 
+   <ul>
+  <li>HTML</li>
+  <li>CSS</li>
+ </ul>
 
    
 
