@@ -102,18 +102,32 @@ footer{
     
 }
 
-
-/* pseudo element fot the cart icon */
-/* .icon::before{
+.basket-icon{
+  font-size: 32px;
+  margin-bottom: 12px;
+  margin-left: 30px;
+  position: relative;
+  height: 100%;
+  padding: 20px;
+}
+.basket-icon::before {
+    position: absolute;
     content: "2";
-    height: 24px;
-    width: 24px;
+    background-color: var(--clr-orange);
+    color: #fff;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+    display: block;
     border: none;
     border-radius: 50%;
-    background-color: var(--clr-orange);
-    left:0;
-    right:10;
-} */
+    font-size: 0.4em;
+    bottom: 50%;
+    right:15%;
+  
+}
+
 .order-container{
     display: flex;
     flex-direction: row;
