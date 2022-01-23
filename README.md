@@ -9,7 +9,7 @@
   </table>
    
    ## Demo
-   Here is the Live site : https://burger-palace.netlify.app/
+   Here is the Live site : https://charity-bit.github.io/Burger-Palace/
    
    ## Site
    
