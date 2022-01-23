@@ -9,8 +9,36 @@
    ## Demo
    Here is the Live site : https://burger-palace.netlify.app/
    
-   ##Site
+   ## Site
    
-   ##Landing Page
+   ## Landing Page
    
    ![](https://github.com/charity-bit/Burger-Palace/blob/main/assets/landing.png)
+   
+   ## Qualities Page
+
+   ![](https://github.com/charity-bit/Burger-Palace/blob/main/assets/qualities.png)
+   
+   ## Menu Page
+   
+   ![](https://github.com/charity-bit/Burger-Palace/blob/main/assets/menu1.png)
+   
+   ![](https://github.com/charity-bit/Burger-Palace/blob/main/assets/menu2.png)
+   
+   ## Double Decker section
+   
+   ![](https://github.com/charity-bit/Burger-Palace/blob/main/assets/double.png)
+   
+   ## Download for Mobile
+   
+   ![](https://github.com/charity-bit/Burger-Palace/blob/main/assets/apps.png)
+   
+   ## Footer Section
+   ![](https://github.com/charity-bit/Burger-Palace/blob/main/assets/footer.png)
+
+   
+
+
+
+
+   
