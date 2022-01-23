@@ -2,7 +2,9 @@
 <table>
   <tr>
     <td>A website created using html and css that displays the menu and qualities of Burger Palace, a Local eatery.<br>
-    It is good for people who want to learn how to use css to style their websites.</td>
+    It is good for people who want to learn how to use css to style their websites<br>.
+    For Screen sizes of minimum width of 1100px.
+    </td>
   </tr>
   </table>
    
@@ -42,6 +44,18 @@
   <li>HTML</li>
   <li>CSS</li>
  </ul>
+ 
+ ##   To Do
+ <ol>
+  <li> Create responsiveness with media queries for screen sizes of minimum width of 1100px</li>
+  <li>Use absolute positioninng instead of empty divs for positioning (Check comments in code)</li>
+  <li>Host using github Pages</li>
+  <li>Merge classes with similar css elements/styling </li>
+  <ol>
+    
+   ## Contributors
+    :<a  href="https://github.com/charity-bit" style="text-decoration:none;">Charity Nyanchera</a>
+    
 
    
 
