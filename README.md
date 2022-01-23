@@ -3,7 +3,7 @@
   <tr>
     <td>A website created using html and css that displays the menu and qualities of Burger Palace, an online  eatery.<br>
     It is good for people who want to learn how to use css to style their websites.<br>
-    For Screen sizes of minimum width of 1100px.
+    For Screen sizes of minimum width of 1100px.<b>
      This is my first Independent project at Moringa School.
     </td>
   </tr>
