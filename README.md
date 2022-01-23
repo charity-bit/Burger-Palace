@@ -8,6 +8,10 @@
     </td>
   </tr>
   </table>
+  
+  ##Original Design
+  
+  ![](https://github.com/charity-bit/Burger-Palace/tree/main/assets)
    
    ## Demo
    Here is the Live site : https://charity-bit.github.io/Burger-Palace/
