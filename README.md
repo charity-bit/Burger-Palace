@@ -5,3 +5,6 @@
     It is good for people who want to learn how to use css to style their websites.</td>
   </tr>
   </table>
+   
+   ## Demo
+   Here is the Live site : ![Burger Palace](https://burger-palace.netlify.app/)
