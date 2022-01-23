@@ -223,6 +223,7 @@ footer{
     font-weight: 500;
     color:black;
     text-align: center;
+    position: relative;
 
 }
 .title span{
@@ -230,14 +231,18 @@ footer{
     font-weight: 700;
     
 }
-
 .title::after{
+    position: absolute;
     content: "";
     height: 5px;
-    width:2%;
-    background-color: var(--clr-yellow);
-
-} 
+    display: block;
+    padding-top: 5px;
+    background-color:var(--clr-orange);
+    width: 5%;
+    top:100%;
+    left:47%;
+  
+}
 .menu-items{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
@@ -259,8 +264,66 @@ footer{
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1), 0 4px 12px 0 rgba(0,0,0,0.5);
     border: none;
     border-radius: 20px;
+    padding : 0 10px;
     
 }
+.menu-cart,.menu-cart2{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+.increment-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+    background-color: var(--clr-gray);
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.increment-cart button{
+    border:none;
+    background-color: transparent;
+    color: green;
+    font-size: 1rem;
+}
+.increment-cart p{
+    font-size: 1rem;
+    color: black;
+    font-weight: 400;
+}
+/* TO DO */
+/* Merge repeating classes */
+
+.menu-cart2 i{
+width: 60px;
+
+}
+.menu-cart i{
+    color:black;
+    font-size: 24px;
+    background-color: var(--clr-gray);
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    
+}
+.menu-cart p,.menu-cart2 p{
+    color: black;
+    font-weight: 400;
+    margin-bottom:17px;
+}
+
+
 
 .menu-item h3{
     color: #800000;
@@ -287,7 +350,7 @@ footer{
     so I used a margin top of 50% which I dont know whether is good practice.
     I will find a better way to position the section
     */
-    margin-top: 50%; 
+    margin-top: 70%; 
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -498,6 +561,10 @@ instead of empty div */
 .subscribe-btn input{
     height: 40px;
     width:200px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding:10px;
+    color: black;
 
 }
 .subscribe-btn button{
